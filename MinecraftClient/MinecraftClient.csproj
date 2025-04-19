@@ -72,6 +72,9 @@
     <Compile Remove="config\ChatBots\SugarCaneFarmer.cs" />
     <Compile Remove="Mapping\VillagerInfo.cs" />
   </ItemGroup>
+<ItemGroup>
+  <Compile Include="ChatBots\RandomMessageSender.cs" />
+</ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ConsoleInteractive\ConsoleInteractive\ConsoleInteractive\ConsoleInteractive.csproj" />
   </ItemGroup>
